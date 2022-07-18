@@ -1,0 +1,486 @@
+@media (min-width: 1025px) {
+  .home-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-media {
+    overflow-y: scroll;
+  }
+}
+
+.home .first,
+.home .second,
+.home .third,
+.home .fourth,
+.home-media .first,
+.home-media .second,
+.home-media .third,
+.home-media .fourth {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .home .first,
+.home .second,
+.home .third,
+.home .fourth,
+.home-media .first,
+.home-media .second,
+.home-media .third,
+.home-media .fourth {
+    flex-direction: column;
+  }
+}
+.home .first .left,
+.home .second .left,
+.home .third .left,
+.home .fourth .left,
+.home-media .first .left,
+.home-media .second .left,
+.home-media .third .left,
+.home-media .fourth .left {
+  display: flex;
+  align-items: center;
+  transform: rotate(270deg);
+}
+@media screen and (max-width: 768px) {
+  .home .first .left,
+.home .second .left,
+.home .third .left,
+.home .fourth .left,
+.home-media .first .left,
+.home-media .second .left,
+.home-media .third .left,
+.home-media .fourth .left {
+    transform: rotate(0deg);
+  }
+}
+.home .first .left h5,
+.home .second .left h5,
+.home .third .left h5,
+.home .fourth .left h5,
+.home-media .first .left h5,
+.home-media .second .left h5,
+.home-media .third .left h5,
+.home-media .fourth .left h5 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--btn-color);
+}
+.home .first .left p,
+.home .second .left p,
+.home .third .left p,
+.home .fourth .left p,
+.home-media .first .left p,
+.home-media .second .left p,
+.home-media .third .left p,
+.home-media .fourth .left p {
+  width: 30px;
+  height: 2px;
+  background-color: var(--btn-color);
+  margin: 0 2rem;
+}
+.home .first .middle .upper-content,
+.home .second .middle .upper-content,
+.home .third .middle .upper-content,
+.home .fourth .middle .upper-content,
+.home-media .first .middle .upper-content,
+.home-media .second .middle .upper-content,
+.home-media .third .middle .upper-content,
+.home-media .fourth .middle .upper-content {
+  display: flex;
+  align-items: center;
+}
+.home .first .middle .upper-content h3,
+.home .second .middle .upper-content h3,
+.home .third .middle .upper-content h3,
+.home .fourth .middle .upper-content h3,
+.home-media .first .middle .upper-content h3,
+.home-media .second .middle .upper-content h3,
+.home-media .third .middle .upper-content h3,
+.home-media .fourth .middle .upper-content h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: var(--main-color);
+}
+.home .first .middle .upper-content p,
+.home .second .middle .upper-content p,
+.home .third .middle .upper-content p,
+.home .fourth .middle .upper-content p,
+.home-media .first .middle .upper-content p,
+.home-media .second .middle .upper-content p,
+.home-media .third .middle .upper-content p,
+.home-media .fourth .middle .upper-content p {
+  width: 30px;
+  height: 2px;
+  background-color: var(--main-color);
+  margin: 0 2rem;
+}
+.home .first .middle .middle-content h1,
+.home .second .middle .middle-content h1,
+.home .third .middle .middle-content h1,
+.home .fourth .middle .middle-content h1,
+.home-media .first .middle .middle-content h1,
+.home-media .second .middle .middle-content h1,
+.home-media .third .middle .middle-content h1,
+.home-media .fourth .middle .middle-content h1 {
+  font-size: 12rem;
+  font-weight: 200;
+  color: var(--main-color);
+  line-height: 180px;
+}
+@media screen and (max-width: 768px) {
+  .home .first .middle .middle-content h1,
+.home .second .middle .middle-content h1,
+.home .third .middle .middle-content h1,
+.home .fourth .middle .middle-content h1,
+.home-media .first .middle .middle-content h1,
+.home-media .second .middle .middle-content h1,
+.home-media .third .middle .middle-content h1,
+.home-media .fourth .middle .middle-content h1 {
+    font-size: 6rem;
+    line-height: 100px;
+  }
+}
+.home .first .middle .footer-content,
+.home .second .middle .footer-content,
+.home .third .middle .footer-content,
+.home .fourth .middle .footer-content,
+.home-media .first .middle .footer-content,
+.home-media .second .middle .footer-content,
+.home-media .third .middle .footer-content,
+.home-media .fourth .middle .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .home .first .middle .footer-content,
+.home .second .middle .footer-content,
+.home .third .middle .footer-content,
+.home .fourth .middle .footer-content,
+.home-media .first .middle .footer-content,
+.home-media .second .middle .footer-content,
+.home-media .third .middle .footer-content,
+.home-media .fourth .middle .footer-content {
+    flex-direction: column;
+  }
+}
+.home .first .middle .footer-content .description,
+.home .second .middle .footer-content .description,
+.home .third .middle .footer-content .description,
+.home .fourth .middle .footer-content .description,
+.home-media .first .middle .footer-content .description,
+.home-media .second .middle .footer-content .description,
+.home-media .third .middle .footer-content .description,
+.home-media .fourth .middle .footer-content .description {
+  display: flex;
+  align-items: center;
+}
+.home .first .middle .footer-content .description h3,
+.home .second .middle .footer-content .description h3,
+.home .third .middle .footer-content .description h3,
+.home .fourth .middle .footer-content .description h3,
+.home-media .first .middle .footer-content .description h3,
+.home-media .second .middle .footer-content .description h3,
+.home-media .third .middle .footer-content .description h3,
+.home-media .fourth .middle .footer-content .description h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: var(--main-color);
+}
+.home .first .middle .footer-content .description p,
+.home .second .middle .footer-content .description p,
+.home .third .middle .footer-content .description p,
+.home .fourth .middle .footer-content .description p,
+.home-media .first .middle .footer-content .description p,
+.home-media .second .middle .footer-content .description p,
+.home-media .third .middle .footer-content .description p,
+.home-media .fourth .middle .footer-content .description p {
+  width: 30px;
+  height: 2px;
+  background-color: var(--btn-color);
+  margin: 0 2rem;
+}
+.home .first .middle .footer-content .btn,
+.home .second .middle .footer-content .btn,
+.home .third .middle .footer-content .btn,
+.home .fourth .middle .footer-content .btn,
+.home-media .first .middle .footer-content .btn,
+.home-media .second .middle .footer-content .btn,
+.home-media .third .middle .footer-content .btn,
+.home-media .fourth .middle .footer-content .btn {
+  display: block;
+  padding: 0.7em 1em;
+  margin-left: 5rem;
+  background: transparent;
+  outline: none;
+  border: 0;
+  color: #cd9900;
+  letter-spacing: 0.1em;
+  font-size: 17px;
+  font-weight: bold;
+  z-index: 1;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .home .first .middle .footer-content .btn,
+.home .second .middle .footer-content .btn,
+.home .third .middle .footer-content .btn,
+.home .fourth .middle .footer-content .btn,
+.home-media .first .middle .footer-content .btn,
+.home-media .second .middle .footer-content .btn,
+.home-media .third .middle .footer-content .btn,
+.home-media .fourth .middle .footer-content .btn {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+}
+.home .first .middle .footer-content .cube,
+.home .second .middle .footer-content .cube,
+.home .third .middle .footer-content .cube,
+.home .fourth .middle .footer-content .cube,
+.home-media .first .middle .footer-content .cube,
+.home-media .second .middle .footer-content .cube,
+.home-media .third .middle .footer-content .cube,
+.home-media .fourth .middle .footer-content .cube {
+  position: relative;
+  transition: all 0.5s;
+}
+.home .first .middle .footer-content .cube .bg-top,
+.home .second .middle .footer-content .cube .bg-top,
+.home .third .middle .footer-content .cube .bg-top,
+.home .fourth .middle .footer-content .cube .bg-top,
+.home-media .first .middle .footer-content .cube .bg-top,
+.home-media .second .middle .footer-content .cube .bg-top,
+.home-media .third .middle .footer-content .cube .bg-top,
+.home-media .fourth .middle .footer-content .cube .bg-top {
+  position: absolute;
+  height: 10px;
+  background: #cd9900;
+  bottom: 100%;
+  left: 5px;
+  right: -5px;
+  transform: skew(-45deg, 0);
+  margin: 0;
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube .bg-top .bg-inner,
+.home .second .middle .footer-content .cube .bg-top .bg-inner,
+.home .third .middle .footer-content .cube .bg-top .bg-inner,
+.home .fourth .middle .footer-content .cube .bg-top .bg-inner,
+.home-media .first .middle .footer-content .cube .bg-top .bg-inner,
+.home-media .second .middle .footer-content .cube .bg-top .bg-inner,
+.home-media .third .middle .footer-content .cube .bg-top .bg-inner,
+.home-media .fourth .middle .footer-content .cube .bg-top .bg-inner {
+  bottom: 0;
+}
+.home .first .middle .footer-content .cube .bg,
+.home .second .middle .footer-content .cube .bg,
+.home .third .middle .footer-content .cube .bg,
+.home .fourth .middle .footer-content .cube .bg,
+.home-media .first .middle .footer-content .cube .bg,
+.home-media .second .middle .footer-content .cube .bg,
+.home-media .third .middle .footer-content .cube .bg,
+.home-media .fourth .middle .footer-content .cube .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #cd9900;
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube .bg-right,
+.home .second .middle .footer-content .cube .bg-right,
+.home .third .middle .footer-content .cube .bg-right,
+.home .fourth .middle .footer-content .cube .bg-right,
+.home-media .first .middle .footer-content .cube .bg-right,
+.home-media .second .middle .footer-content .cube .bg-right,
+.home-media .third .middle .footer-content .cube .bg-right,
+.home-media .fourth .middle .footer-content .cube .bg-right {
+  position: absolute;
+  background: #cd9900;
+  top: -5px;
+  z-index: 0;
+  bottom: 5px;
+  width: 10px;
+  left: 100%;
+  transform: skew(0, -45deg);
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube .bg-right .bg-inner,
+.home .second .middle .footer-content .cube .bg-right .bg-inner,
+.home .third .middle .footer-content .cube .bg-right .bg-inner,
+.home .fourth .middle .footer-content .cube .bg-right .bg-inner,
+.home-media .first .middle .footer-content .cube .bg-right .bg-inner,
+.home-media .second .middle .footer-content .cube .bg-right .bg-inner,
+.home-media .third .middle .footer-content .cube .bg-right .bg-inner,
+.home-media .fourth .middle .footer-content .cube .bg-right .bg-inner {
+  left: 0;
+}
+.home .first .middle .footer-content .cube .bg-inner,
+.home .second .middle .footer-content .cube .bg-inner,
+.home .third .middle .footer-content .cube .bg-inner,
+.home .fourth .middle .footer-content .cube .bg-inner,
+.home-media .first .middle .footer-content .cube .bg-inner,
+.home-media .second .middle .footer-content .cube .bg-inner,
+.home-media .third .middle .footer-content .cube .bg-inner,
+.home-media .fourth .middle .footer-content .cube .bg-inner {
+  background: #28282d;
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+}
+.home .first .middle .footer-content .cube .text,
+.home .second .middle .footer-content .cube .text,
+.home .third .middle .footer-content .cube .text,
+.home .fourth .middle .footer-content .cube .text,
+.home-media .first .middle .footer-content .cube .text,
+.home-media .second .middle .footer-content .cube .text,
+.home-media .third .middle .footer-content .cube .text,
+.home-media .fourth .middle .footer-content .cube .text {
+  position: relative;
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube:hover .bg-inner,
+.home .second .middle .footer-content .cube:hover .bg-inner,
+.home .third .middle .footer-content .cube:hover .bg-inner,
+.home .fourth .middle .footer-content .cube:hover .bg-inner,
+.home-media .first .middle .footer-content .cube:hover .bg-inner,
+.home-media .second .middle .footer-content .cube:hover .bg-inner,
+.home-media .third .middle .footer-content .cube:hover .bg-inner,
+.home-media .fourth .middle .footer-content .cube:hover .bg-inner {
+  background: #cd9900;
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube:hover .text,
+.home .second .middle .footer-content .cube:hover .text,
+.home .third .middle .footer-content .cube:hover .text,
+.home .fourth .middle .footer-content .cube:hover .text,
+.home-media .first .middle .footer-content .cube:hover .text,
+.home-media .second .middle .footer-content .cube:hover .text,
+.home-media .third .middle .footer-content .cube:hover .text,
+.home-media .fourth .middle .footer-content .cube:hover .text {
+  color: #28282d;
+  transition: all 0.4s;
+}
+.home .first .middle .footer-content .cube:hover .bg-right,
+.home .first .middle .footer-content .cube:hover .bg,
+.home .first .middle .footer-content .cube:hover .bg-top,
+.home .second .middle .footer-content .cube:hover .bg-right,
+.home .second .middle .footer-content .cube:hover .bg,
+.home .second .middle .footer-content .cube:hover .bg-top,
+.home .third .middle .footer-content .cube:hover .bg-right,
+.home .third .middle .footer-content .cube:hover .bg,
+.home .third .middle .footer-content .cube:hover .bg-top,
+.home .fourth .middle .footer-content .cube:hover .bg-right,
+.home .fourth .middle .footer-content .cube:hover .bg,
+.home .fourth .middle .footer-content .cube:hover .bg-top,
+.home-media .first .middle .footer-content .cube:hover .bg-right,
+.home-media .first .middle .footer-content .cube:hover .bg,
+.home-media .first .middle .footer-content .cube:hover .bg-top,
+.home-media .second .middle .footer-content .cube:hover .bg-right,
+.home-media .second .middle .footer-content .cube:hover .bg,
+.home-media .second .middle .footer-content .cube:hover .bg-top,
+.home-media .third .middle .footer-content .cube:hover .bg-right,
+.home-media .third .middle .footer-content .cube:hover .bg,
+.home-media .third .middle .footer-content .cube:hover .bg-top,
+.home-media .fourth .middle .footer-content .cube:hover .bg-right,
+.home-media .fourth .middle .footer-content .cube:hover .bg,
+.home-media .fourth .middle .footer-content .cube:hover .bg-top {
+  background: #28282d;
+}
+.home .first .middle .footer-content .cube:active,
+.home .second .middle .footer-content .cube:active,
+.home .third .middle .footer-content .cube:active,
+.home .fourth .middle .footer-content .cube:active,
+.home-media .first .middle .footer-content .cube:active,
+.home-media .second .middle .footer-content .cube:active,
+.home-media .third .middle .footer-content .cube:active,
+.home-media .fourth .middle .footer-content .cube:active {
+  z-index: 9999;
+  -webkit-animation: bounce 0.1s linear;
+          animation: bounce 0.1s linear;
+}
+@-webkit-keyframes bounce {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@keyframes bounce {
+  50% {
+    transform: scale(0.9);
+  }
+}
+.home .first .right,
+.home .second .right,
+.home .third .right,
+.home .fourth .right,
+.home-media .first .right,
+.home-media .second .right,
+.home-media .third .right,
+.home-media .fourth .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .first .right video,
+.home .second .right video,
+.home .third .right video,
+.home .fourth .right video,
+.home-media .first .right video,
+.home-media .second .right video,
+.home-media .third .right video,
+.home-media .fourth .right video {
+  width: 30%;
+  height: 100%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home .first .right video,
+.home .second .right video,
+.home .third .right video,
+.home .fourth .right video,
+.home-media .first .right video,
+.home-media .second .right video,
+.home-media .third .right video,
+.home-media .fourth .right video {
+    width: 100%;
+  }
+}
+.home .first .right img,
+.home .second .right img,
+.home .third .right img,
+.home .fourth .right img,
+.home-media .first .right img,
+.home-media .second .right img,
+.home-media .third .right img,
+.home-media .fourth .right img {
+  width: 40%;
+  height: 70%;
+  border-radius: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .home .first .right img,
+.home .second .right img,
+.home .third .right img,
+.home .fourth .right img,
+.home-media .first .right img,
+.home-media .second .right img,
+.home-media .third .right img,
+.home-media .fourth .right img {
+    display: none;
+  }
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,547 @@
+@media (min-width: 1025px) {
+  .about-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-media {
+    overflow-y: scroll;
+  }
+}
+
+.about .about-us,
+.about .group,
+.about .what,
+.about .locations,
+.about-media .about-us,
+.about-media .group,
+.about-media .what,
+.about-media .locations {
+  width: 100vw;
+  height: 100vh;
+}
+.about .about-us,
+.about-media .about-us {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .about .about-us,
+.about-media .about-us {
+    flex-direction: column;
+  }
+}
+.about .about-us .left-part,
+.about-media .about-us .left-part {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .about .about-us .left-part,
+.about-media .about-us .left-part {
+    margin-left: 0;
+  }
+}
+.about .about-us .left-part h1,
+.about-media .about-us .left-part h1 {
+  color: #1f1f1f;
+  font-size: 3rem;
+  font-weight: 200;
+}
+.about .about-us .left-part p,
+.about .about-us .left-part span:first-of-type,
+.about-media .about-us .left-part p,
+.about-media .about-us .left-part span:first-of-type {
+  color: var(--main-color);
+  font-size: 14rem;
+  font-weight: 200;
+  line-height: 190px;
+}
+@media screen and (max-width: 768px) {
+  .about .about-us .left-part p,
+.about .about-us .left-part span:first-of-type,
+.about-media .about-us .left-part p,
+.about-media .about-us .left-part span:first-of-type {
+    font-size: 8rem;
+    line-height: 120px;
+  }
+}
+.about .about-us .left-part span:nth-of-type(2),
+.about-media .about-us .left-part span:nth-of-type(2) {
+  color: #1f1f1f;
+  font-size: 5rem;
+  font-weight: 200;
+}
+@media screen and (max-width: 768px) {
+  .about .about-us .left-part span:nth-of-type(2),
+.about-media .about-us .left-part span:nth-of-type(2) {
+    font-size: 3rem;
+  }
+}
+.about .about-us .right-part,
+.about-media .about-us .right-part {
+  display: flex;
+  justify-content: center;
+}
+.about .about-us .right-part video,
+.about-media .about-us .right-part video {
+  width: 80%;
+  height: 100%;
+  border-radius: 50px;
+}
+.about .group,
+.about-media .group {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .about .group,
+.about-media .group {
+    flex-direction: column;
+    height: 290vh;
+  }
+}
+.about .group .left-part .heading-box,
+.about-media .group .left-part .heading-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--btn-color);
+  margin-right: 2rem;
+}
+.about .group .left-part .heading-box span,
+.about-media .group .left-part .heading-box span {
+  color: var(--btn-color);
+  font-size: 2.4rem;
+  margin-right: 1rem;
+  padding: 0.3rem;
+}
+.about .group .left-part .heading-box h1,
+.about-media .group .left-part .heading-box h1 {
+  color: var(--btn-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-left: 2px solid var(--btn-color);
+  padding: 0.3rem;
+  line-height: 50px;
+}
+.about .group .left-part h1,
+.about-media .group .left-part h1 {
+  color: var(--main-color);
+  font-size: 6rem;
+  font-weight: 200;
+  line-height: 90px;
+}
+.about .group .left-part h1 span,
+.about-media .group .left-part h1 span {
+  font-weight: 500;
+}
+.about .group .left-part p,
+.about-media .group .left-part p {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: var(--main-color);
+}
+.about .group .middle-part,
+.about-media .group .middle-part {
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+.about .group .middle-part img,
+.about-media .group .middle-part img {
+  width: 100%;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.about .group .middle-part img:hover,
+.about-media .group .middle-part img:hover {
+  transform: scale(1.3);
+}
+.about .group .right-part,
+.about-media .group .right-part {
+  position: relative;
+  left: -5%;
+}
+@media screen and (max-width: 768px) {
+  .about .group .right-part,
+.about-media .group .right-part {
+    left: 0;
+  }
+}
+.about .group .right-part h1,
+.about-media .group .right-part h1 {
+  color: var(--main-color);
+  font-size: 5rem;
+  font-weight: 200;
+}
+.about .group .right-part p,
+.about-media .group .right-part p {
+  font-size: 1.1rem;
+  color: var(--main-color);
+  line-height: 1.7;
+}
+.about .what,
+.about-media .what {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .about .what,
+.about-media .what {
+    flex-direction: column;
+    height: 180vh;
+    align-items: flex-start;
+  }
+}
+.about .what .left-part .stats,
+.about-media .what .left-part .stats {
+  padding: 3rem 5rem;
+  background-color: #695f55;
+  box-shadow: #695f55 10px -10px 0px -3px, #dbccb3 10px -10px, #695f55 20px -20px 0px -3px, #dbccb3 20px -20px, #695f55 30px -30px 0px -3px, #dbccb3 30px -30px, #695f55 40px -40px 0px -3px, #dbccb3 40px -40px;
+  border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .about .what .left-part .stats,
+.about-media .what .left-part .stats {
+    padding: 1rem;
+  }
+}
+.about .what .left-part .stats .upper,
+.about .what .left-part .stats .footer,
+.about-media .what .left-part .stats .upper,
+.about-media .what .left-part .stats .footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+@media screen and (max-width: 768px) {
+  .about .what .left-part .stats .upper,
+.about .what .left-part .stats .footer,
+.about-media .what .left-part .stats .upper,
+.about-media .what .left-part .stats .footer {
+    gap: 50px;
+  }
+}
+.about .what .left-part .stats .upper h1,
+.about .what .left-part .stats .footer h1,
+.about-media .what .left-part .stats .upper h1,
+.about-media .what .left-part .stats .footer h1 {
+  color: var(--main-color);
+  font-size: 5rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about .what .left-part .stats .upper h1,
+.about .what .left-part .stats .footer h1,
+.about-media .what .left-part .stats .upper h1,
+.about-media .what .left-part .stats .footer h1 {
+    font-size: 2rem;
+  }
+}
+.about .what .left-part .stats .upper p,
+.about .what .left-part .stats .footer p,
+.about-media .what .left-part .stats .upper p,
+.about-media .what .left-part .stats .footer p {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+  .about .what .left-part .stats .upper p,
+.about .what .left-part .stats .footer p,
+.about-media .what .left-part .stats .upper p,
+.about-media .what .left-part .stats .footer p {
+    font-size: 1rem;
+  }
+}
+.about .what .left-part .stats .upper,
+.about-media .what .left-part .stats .upper {
+  margin-bottom: 2rem;
+}
+.about .what .right-part .heading-box,
+.about-media .what .right-part .heading-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--btn-color);
+  margin-right: 2rem;
+}
+.about .what .right-part .heading-box span,
+.about-media .what .right-part .heading-box span {
+  color: var(--btn-color);
+  font-size: 2.4rem;
+  margin-right: 1rem;
+  padding: 0.3rem;
+}
+.about .what .right-part .heading-box h1,
+.about-media .what .right-part .heading-box h1 {
+  color: var(--btn-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-left: 2px solid var(--btn-color);
+  padding: 0.3rem;
+  line-height: 50px;
+}
+.about .what .right-part .services .service-one,
+.about .what .right-part .services .service-two,
+.about .what .right-part .services .service-three,
+.about .what .right-part .services .service-four,
+.about-media .what .right-part .services .service-one,
+.about-media .what .right-part .services .service-two,
+.about-media .what .right-part .services .service-three,
+.about-media .what .right-part .services .service-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  border-bottom: 1px solid var(--btn-color);
+}
+.about .what .right-part .services .service-one span,
+.about .what .right-part .services .service-two span,
+.about .what .right-part .services .service-three span,
+.about .what .right-part .services .service-four span,
+.about-media .what .right-part .services .service-one span,
+.about-media .what .right-part .services .service-two span,
+.about-media .what .right-part .services .service-three span,
+.about-media .what .right-part .services .service-four span {
+  font-size: 1.6rem;
+  color: var(--btn-color);
+  font-weight: 200;
+}
+.about .what .right-part .services .service-one h1,
+.about .what .right-part .services .service-two h1,
+.about .what .right-part .services .service-three h1,
+.about .what .right-part .services .service-four h1,
+.about-media .what .right-part .services .service-one h1,
+.about-media .what .right-part .services .service-two h1,
+.about-media .what .right-part .services .service-three h1,
+.about-media .what .right-part .services .service-four h1 {
+  margin: 0 2rem;
+  color: var(--main-color);
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about .what .right-part .services .service-one h1,
+.about .what .right-part .services .service-two h1,
+.about .what .right-part .services .service-three h1,
+.about .what .right-part .services .service-four h1,
+.about-media .what .right-part .services .service-one h1,
+.about-media .what .right-part .services .service-two h1,
+.about-media .what .right-part .services .service-three h1,
+.about-media .what .right-part .services .service-four h1 {
+    font-size: 1rem;
+  }
+}
+.about .what .right-part .services .service-one p,
+.about .what .right-part .services .service-two p,
+.about .what .right-part .services .service-three p,
+.about .what .right-part .services .service-four p,
+.about-media .what .right-part .services .service-one p,
+.about-media .what .right-part .services .service-two p,
+.about-media .what .right-part .services .service-three p,
+.about-media .what .right-part .services .service-four p {
+  color: var(--main-color);
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.about .locations,
+.about-media .locations {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .about .locations,
+.about-media .locations {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+}
+.about .locations .half,
+.about-media .locations .half {
+  width: 50vw;
+  height: 100vh;
+  padding: 2rem;
+  margin-right: 2rem;
+  background-color: #695f55;
+}
+@media screen and (max-width: 768px) {
+  .about .locations .half,
+.about-media .locations .half {
+    width: 100vw;
+  }
+}
+.about .locations .half h1,
+.about-media .locations .half h1 {
+  color: var(--main-color);
+  font-size: 13rem;
+  font-weight: 200;
+  line-height: 180px;
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .about .locations .half h1,
+.about-media .locations .half h1 {
+    font-size: 8rem;
+    line-height: 120px;
+  }
+}
+.about .locations .half p,
+.about-media .locations .half p {
+  font-weight: 200;
+  font-size: 2rem;
+  color: #1f1f1f;
+}
+.about .locations .right,
+.about-media .locations .right {
+  display: flex;
+  justify-content: center;
+}
+.about .locations .right .location-cards,
+.about-media .locations .right .location-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .about .locations .right .location-cards,
+.about-media .locations .right .location-cards {
+    flex-direction: column;
+  }
+}
+.about .locations .right .location-cards .location-one,
+.about .locations .right .location-cards .location-two,
+.about .locations .right .location-cards .location-three,
+.about .locations .right .location-cards .location-four,
+.about .locations .right .location-cards .location-five,
+.about-media .locations .right .location-cards .location-one,
+.about-media .locations .right .location-cards .location-two,
+.about-media .locations .right .location-cards .location-three,
+.about-media .locations .right .location-cards .location-four,
+.about-media .locations .right .location-cards .location-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  margin-right: 1rem;
+  padding: 1rem;
+  background-color: #ccbfb2;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.about .locations .right .location-cards .location-one:hover,
+.about .locations .right .location-cards .location-two:hover,
+.about .locations .right .location-cards .location-three:hover,
+.about .locations .right .location-cards .location-four:hover,
+.about .locations .right .location-cards .location-five:hover,
+.about-media .locations .right .location-cards .location-one:hover,
+.about-media .locations .right .location-cards .location-two:hover,
+.about-media .locations .right .location-cards .location-three:hover,
+.about-media .locations .right .location-cards .location-four:hover,
+.about-media .locations .right .location-cards .location-five:hover {
+  background-color: #cd9900;
+}
+.about .locations .right .location-cards .location-one img,
+.about .locations .right .location-cards .location-two img,
+.about .locations .right .location-cards .location-three img,
+.about .locations .right .location-cards .location-four img,
+.about .locations .right .location-cards .location-five img,
+.about-media .locations .right .location-cards .location-one img,
+.about-media .locations .right .location-cards .location-two img,
+.about-media .locations .right .location-cards .location-three img,
+.about-media .locations .right .location-cards .location-four img,
+.about-media .locations .right .location-cards .location-five img {
+  width: 100%;
+  border-radius: 30px;
+}
+.about .locations .right .location-cards .location-one .logo,
+.about .locations .right .location-cards .location-two .logo,
+.about .locations .right .location-cards .location-three .logo,
+.about .locations .right .location-cards .location-four .logo,
+.about .locations .right .location-cards .location-five .logo,
+.about-media .locations .right .location-cards .location-one .logo,
+.about-media .locations .right .location-cards .location-two .logo,
+.about-media .locations .right .location-cards .location-three .logo,
+.about-media .locations .right .location-cards .location-four .logo,
+.about-media .locations .right .location-cards .location-five .logo {
+  width: 60%;
+}
+.about .locations .right .location-cards .location-one svg,
+.about .locations .right .location-cards .location-two svg,
+.about .locations .right .location-cards .location-three svg,
+.about .locations .right .location-cards .location-four svg,
+.about .locations .right .location-cards .location-five svg,
+.about-media .locations .right .location-cards .location-one svg,
+.about-media .locations .right .location-cards .location-two svg,
+.about-media .locations .right .location-cards .location-three svg,
+.about-media .locations .right .location-cards .location-four svg,
+.about-media .locations .right .location-cards .location-five svg {
+  position: absolute;
+  top: 50%;
+}
+@media screen and (max-width: 768px) {
+  .about .locations .right .location-cards .location-one svg,
+.about .locations .right .location-cards .location-two svg,
+.about .locations .right .location-cards .location-three svg,
+.about .locations .right .location-cards .location-four svg,
+.about .locations .right .location-cards .location-five svg,
+.about-media .locations .right .location-cards .location-one svg,
+.about-media .locations .right .location-cards .location-two svg,
+.about-media .locations .right .location-cards .location-three svg,
+.about-media .locations .right .location-cards .location-four svg,
+.about-media .locations .right .location-cards .location-five svg {
+    position: relative;
+    top: -45px;
+  }
+}
+.about .locations .right .location-cards .location-one h1,
+.about .locations .right .location-cards .location-two h1,
+.about .locations .right .location-cards .location-three h1,
+.about .locations .right .location-cards .location-four h1,
+.about .locations .right .location-cards .location-five h1,
+.about-media .locations .right .location-cards .location-one h1,
+.about-media .locations .right .location-cards .location-two h1,
+.about-media .locations .right .location-cards .location-three h1,
+.about-media .locations .right .location-cards .location-four h1,
+.about-media .locations .right .location-cards .location-five h1 {
+  font-weight: 200;
+}
+.about .locations .right .location-cards .location-one p,
+.about .locations .right .location-cards .location-two p,
+.about .locations .right .location-cards .location-three p,
+.about .locations .right .location-cards .location-four p,
+.about .locations .right .location-cards .location-five p,
+.about-media .locations .right .location-cards .location-one p,
+.about-media .locations .right .location-cards .location-two p,
+.about-media .locations .right .location-cards .location-three p,
+.about-media .locations .right .location-cards .location-four p,
+.about-media .locations .right .location-cards .location-five p {
+  letter-spacing: 3px;
+}
+.about .locations .right .location-cards .location-two,
+.about-media .locations .right .location-cards .location-two {
+  transform: rotate(10deg);
+}
+.about .locations .right .location-cards .location-three,
+.about-media .locations .right .location-cards .location-three {
+  transform: rotate(-10deg);
+}
+.about .locations .right .location-cards .location-four,
+.about-media .locations .right .location-cards .location-four {
+  transform: rotate(-5deg);
+}
+.about .locations .right .location-cards .location-five,
+.about-media .locations .right .location-cards .location-five {
+  transform: rotate(5deg);
+}/*# sourceMappingURL=about.css.map */

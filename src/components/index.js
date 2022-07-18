@@ -1,0 +1,6 @@
+export {default as Home} from './home/Home'
+export {default as Header} from './Header/Header'
+export {default as Process} from './process/Process'
+export {default as Activities} from './activities/Activities'
+export {default as About} from './about/About'
+export {default as Contact} from './contact/Contact'

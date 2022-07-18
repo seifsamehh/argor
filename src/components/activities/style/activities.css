@@ -1,0 +1,154 @@
+@media (min-width: 1025px) {
+  .activities-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .activities {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .activities-media {
+    overflow-y: scroll;
+  }
+}
+
+.activities .cards,
+.activities-media .cards {
+  display: flex;
+  border-top: 3px solid var(--btn-color);
+}
+@media screen and (max-width: 768px) {
+  .activities .cards,
+.activities-media .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.activities .cards .card-1,
+.activities .cards .card-2,
+.activities .cards .card-3,
+.activities-media .cards .card-1,
+.activities-media .cards .card-2,
+.activities-media .cards .card-3 {
+  border-right: 3px dashed var(--btn-color);
+}
+@media screen and (max-width: 768px) {
+  .activities .cards .card-1,
+.activities .cards .card-2,
+.activities .cards .card-3,
+.activities-media .cards .card-1,
+.activities-media .cards .card-2,
+.activities-media .cards .card-3 {
+    border-right: none;
+    border-bottom: 3px dashed var(--btn-color);
+  }
+}
+.activities .cards .card-1,
+.activities .cards .card-2,
+.activities .cards .card-3,
+.activities .cards .card-4,
+.activities-media .cards .card-1,
+.activities-media .cards .card-2,
+.activities-media .cards .card-3,
+.activities-media .cards .card-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40vw;
+}
+.activities .cards .card-1 h1,
+.activities .cards .card-2 h1,
+.activities .cards .card-3 h1,
+.activities .cards .card-4 h1,
+.activities-media .cards .card-1 h1,
+.activities-media .cards .card-2 h1,
+.activities-media .cards .card-3 h1,
+.activities-media .cards .card-4 h1 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 3rem;
+  font-weight: 200;
+}
+.activities .cards .card-1 .card-container,
+.activities .cards .card-2 .card-container,
+.activities .cards .card-3 .card-container,
+.activities .cards .card-4 .card-container,
+.activities-media .cards .card-1 .card-container,
+.activities-media .cards .card-2 .card-container,
+.activities-media .cards .card-3 .card-container,
+.activities-media .cards .card-4 .card-container {
+  perspective: 800px;
+}
+.activities .cards .card-1 .card-container .card,
+.activities .cards .card-2 .card-container .card,
+.activities .cards .card-3 .card-container .card,
+.activities .cards .card-4 .card-container .card,
+.activities-media .cards .card-1 .card-container .card,
+.activities-media .cards .card-2 .card-container .card,
+.activities-media .cards .card-3 .card-container .card,
+.activities-media .cards .card-4 .card-container .card {
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+  position: relative;
+  transition: transform 0.75s cubic-bezier(0.4, 0.03, 0.5, 0.9);
+}
+.activities .cards .card-1 .card-container .card .card-image,
+.activities .cards .card-2 .card-container .card .card-image,
+.activities .cards .card-3 .card-container .card .card-image,
+.activities .cards .card-4 .card-container .card .card-image,
+.activities-media .cards .card-1 .card-container .card .card-image,
+.activities-media .cards .card-2 .card-container .card .card-image,
+.activities-media .cards .card-3 .card-container .card .card-image,
+.activities-media .cards .card-4 .card-container .card .card-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: 2px solid var(--main-color);
+  outline-offset: 5px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  cursor: pointer;
+}
+.activities .cards .card-1 .card-container .card .card-image:nth-child(2),
+.activities .cards .card-2 .card-container .card .card-image:nth-child(2),
+.activities .cards .card-3 .card-container .card .card-image:nth-child(2),
+.activities .cards .card-4 .card-container .card .card-image:nth-child(2),
+.activities-media .cards .card-1 .card-container .card .card-image:nth-child(2),
+.activities-media .cards .card-2 .card-container .card .card-image:nth-child(2),
+.activities-media .cards .card-3 .card-container .card .card-image:nth-child(2),
+.activities-media .cards .card-4 .card-container .card .card-image:nth-child(2) {
+  transform: rotate3d(1, 1, 0, 180deg);
+}
+.activities .cards .card-1 .card-container .card:hover,
+.activities .cards .card-2 .card-container .card:hover,
+.activities .cards .card-3 .card-container .card:hover,
+.activities .cards .card-4 .card-container .card:hover,
+.activities-media .cards .card-1 .card-container .card:hover,
+.activities-media .cards .card-2 .card-container .card:hover,
+.activities-media .cards .card-3 .card-container .card:hover,
+.activities-media .cards .card-4 .card-container .card:hover {
+  transform: rotate3d(1, 1, 0, 180deg);
+}
+.activities .cards .card-1 span,
+.activities .cards .card-2 span,
+.activities .cards .card-3 span,
+.activities .cards .card-4 span,
+.activities-media .cards .card-1 span,
+.activities-media .cards .card-2 span,
+.activities-media .cards .card-3 span,
+.activities-media .cards .card-4 span {
+  color: #fff;
+  font-size: 15rem;
+  position: relative;
+  top: -25%;
+}/*# sourceMappingURL=activities.css.map */

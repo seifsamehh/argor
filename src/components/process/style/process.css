@@ -1,0 +1,400 @@
+@media (min-width: 1025px) {
+  .process-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .process {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .process-media {
+    overflow-y: scroll;
+  }
+}
+
+.process .first-cateogry,
+.process .second-cateogry,
+.process .third-cateogry,
+.process .fourth-cateogry,
+.process-media .first-cateogry,
+.process-media .second-cateogry,
+.process-media .third-cateogry,
+.process-media .fourth-cateogry {
+  width: 100vw;
+  height: 100vh;
+}
+.process .first-cateogry .container,
+.process .second-cateogry .container,
+.process .third-cateogry .container,
+.process .fourth-cateogry .container,
+.process-media .first-cateogry .container,
+.process-media .second-cateogry .container,
+.process-media .third-cateogry .container,
+.process-media .fourth-cateogry .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .process .first-cateogry .container,
+.process .second-cateogry .container,
+.process .third-cateogry .container,
+.process .fourth-cateogry .container,
+.process-media .first-cateogry .container,
+.process-media .second-cateogry .container,
+.process-media .third-cateogry .container,
+.process-media .fourth-cateogry .container {
+    flex-direction: column;
+  }
+}
+.process .first-cateogry .container .heading,
+.process .second-cateogry .container .heading,
+.process .third-cateogry .container .heading,
+.process .fourth-cateogry .container .heading,
+.process-media .first-cateogry .container .heading,
+.process-media .second-cateogry .container .heading,
+.process-media .third-cateogry .container .heading,
+.process-media .fourth-cateogry .container .heading {
+  display: flex;
+  align-items: flex-end;
+}
+.process .first-cateogry .container .heading p,
+.process .second-cateogry .container .heading p,
+.process .third-cateogry .container .heading p,
+.process .fourth-cateogry .container .heading p,
+.process-media .first-cateogry .container .heading p,
+.process-media .second-cateogry .container .heading p,
+.process-media .third-cateogry .container .heading p,
+.process-media .fourth-cateogry .container .heading p {
+  font-size: 15rem;
+  color: #cd9900;
+  -webkit-text-fill-color: var(--bg-color);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #cd9900;
+}
+@media screen and (max-width: 768px) {
+  .process .first-cateogry .container .heading p,
+.process .second-cateogry .container .heading p,
+.process .third-cateogry .container .heading p,
+.process .fourth-cateogry .container .heading p,
+.process-media .first-cateogry .container .heading p,
+.process-media .second-cateogry .container .heading p,
+.process-media .third-cateogry .container .heading p,
+.process-media .fourth-cateogry .container .heading p {
+    font-size: 10rem;
+  }
+}
+.process .first-cateogry .container .heading h1,
+.process .second-cateogry .container .heading h1,
+.process .third-cateogry .container .heading h1,
+.process .fourth-cateogry .container .heading h1,
+.process-media .first-cateogry .container .heading h1,
+.process-media .second-cateogry .container .heading h1,
+.process-media .third-cateogry .container .heading h1,
+.process-media .fourth-cateogry .container .heading h1 {
+  font-size: 11rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: var(--main-color);
+  line-height: 170px;
+}
+@media screen and (max-width: 768px) {
+  .process .first-cateogry .container .heading h1,
+.process .second-cateogry .container .heading h1,
+.process .third-cateogry .container .heading h1,
+.process .fourth-cateogry .container .heading h1,
+.process-media .first-cateogry .container .heading h1,
+.process-media .second-cateogry .container .heading h1,
+.process-media .third-cateogry .container .heading h1,
+.process-media .fourth-cateogry .container .heading h1 {
+    font-size: 6rem;
+    line-height: 90px;
+  }
+}
+.process .first-cateogry .container .content,
+.process .second-cateogry .container .content,
+.process .third-cateogry .container .content,
+.process .fourth-cateogry .container .content,
+.process-media .first-cateogry .container .content,
+.process-media .second-cateogry .container .content,
+.process-media .third-cateogry .container .content,
+.process-media .fourth-cateogry .container .content {
+  display: flex;
+  align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .process .first-cateogry .container .content,
+.process .second-cateogry .container .content,
+.process .third-cateogry .container .content,
+.process .fourth-cateogry .container .content,
+.process-media .first-cateogry .container .content,
+.process-media .second-cateogry .container .content,
+.process-media .third-cateogry .container .content,
+.process-media .fourth-cateogry .container .content {
+    flex-direction: column;
+  }
+}
+.process .first-cateogry .container .content .left-box,
+.process .second-cateogry .container .content .left-box,
+.process .third-cateogry .container .content .left-box,
+.process .fourth-cateogry .container .content .left-box,
+.process-media .first-cateogry .container .content .left-box,
+.process-media .second-cateogry .container .content .left-box,
+.process-media .third-cateogry .container .content .left-box,
+.process-media .fourth-cateogry .container .content .left-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--btn-color);
+  margin-right: 2rem;
+}
+.process .first-cateogry .container .content .left-box span,
+.process .second-cateogry .container .content .left-box span,
+.process .third-cateogry .container .content .left-box span,
+.process .fourth-cateogry .container .content .left-box span,
+.process-media .first-cateogry .container .content .left-box span,
+.process-media .second-cateogry .container .content .left-box span,
+.process-media .third-cateogry .container .content .left-box span,
+.process-media .fourth-cateogry .container .content .left-box span {
+  color: var(--btn-color);
+  font-size: 2.4rem;
+  margin-right: 1rem;
+  padding: 0.3rem;
+}
+.process .first-cateogry .container .content .left-box p,
+.process .second-cateogry .container .content .left-box p,
+.process .third-cateogry .container .content .left-box p,
+.process .fourth-cateogry .container .content .left-box p,
+.process-media .first-cateogry .container .content .left-box p,
+.process-media .second-cateogry .container .content .left-box p,
+.process-media .third-cateogry .container .content .left-box p,
+.process-media .fourth-cateogry .container .content .left-box p {
+  color: var(--btn-color);
+  font-size: 1.6rem;
+  border-left: 2px solid var(--btn-color);
+  padding: 0.3rem;
+}
+.process .first-cateogry .container .content .right-box h2,
+.process .second-cateogry .container .content .right-box h2,
+.process .third-cateogry .container .content .right-box h2,
+.process .fourth-cateogry .container .content .right-box h2,
+.process-media .first-cateogry .container .content .right-box h2,
+.process-media .second-cateogry .container .content .right-box h2,
+.process-media .third-cateogry .container .content .right-box h2,
+.process-media .fourth-cateogry .container .content .right-box h2 {
+  color: var(--main-color);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.process .first-cateogry .container .content .right-box p,
+.process .second-cateogry .container .content .right-box p,
+.process .third-cateogry .container .content .right-box p,
+.process .fourth-cateogry .container .content .right-box p,
+.process-media .first-cateogry .container .content .right-box p,
+.process-media .second-cateogry .container .content .right-box p,
+.process-media .third-cateogry .container .content .right-box p,
+.process-media .fourth-cateogry .container .content .right-box p {
+  margin: 1rem 0;
+  color: var(--main-color);
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.process .first-cateogry,
+.process-media .first-cateogry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .process .first-cateogry,
+.process-media .first-cateogry {
+    height: 180vh;
+  }
+}
+.process .first-cateogry .gallery,
+.process-media .first-cateogry .gallery {
+  display: flex;
+}
+.process .first-cateogry .gallery .chart-1,
+.process .first-cateogry .gallery .chart-2,
+.process .first-cateogry .gallery .chart-3,
+.process .first-cateogry .gallery .chart-4,
+.process .first-cateogry .gallery .chart-5,
+.process-media .first-cateogry .gallery .chart-1,
+.process-media .first-cateogry .gallery .chart-2,
+.process-media .first-cateogry .gallery .chart-3,
+.process-media .first-cateogry .gallery .chart-4,
+.process-media .first-cateogry .gallery .chart-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.process .first-cateogry .gallery .chart-1 .head,
+.process .first-cateogry .gallery .chart-2 .head,
+.process .first-cateogry .gallery .chart-3 .head,
+.process .first-cateogry .gallery .chart-4 .head,
+.process .first-cateogry .gallery .chart-5 .head,
+.process-media .first-cateogry .gallery .chart-1 .head,
+.process-media .first-cateogry .gallery .chart-2 .head,
+.process-media .first-cateogry .gallery .chart-3 .head,
+.process-media .first-cateogry .gallery .chart-4 .head,
+.process-media .first-cateogry .gallery .chart-5 .head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.process .first-cateogry .gallery .chart-1 .head h5,
+.process .first-cateogry .gallery .chart-1 .head h1,
+.process .first-cateogry .gallery .chart-2 .head h5,
+.process .first-cateogry .gallery .chart-2 .head h1,
+.process .first-cateogry .gallery .chart-3 .head h5,
+.process .first-cateogry .gallery .chart-3 .head h1,
+.process .first-cateogry .gallery .chart-4 .head h5,
+.process .first-cateogry .gallery .chart-4 .head h1,
+.process .first-cateogry .gallery .chart-5 .head h5,
+.process .first-cateogry .gallery .chart-5 .head h1,
+.process-media .first-cateogry .gallery .chart-1 .head h5,
+.process-media .first-cateogry .gallery .chart-1 .head h1,
+.process-media .first-cateogry .gallery .chart-2 .head h5,
+.process-media .first-cateogry .gallery .chart-2 .head h1,
+.process-media .first-cateogry .gallery .chart-3 .head h5,
+.process-media .first-cateogry .gallery .chart-3 .head h1,
+.process-media .first-cateogry .gallery .chart-4 .head h5,
+.process-media .first-cateogry .gallery .chart-4 .head h1,
+.process-media .first-cateogry .gallery .chart-5 .head h5,
+.process-media .first-cateogry .gallery .chart-5 .head h1 {
+  color: var(--main-color);
+}
+.process .first-cateogry .gallery .chart-1 .head h5,
+.process .first-cateogry .gallery .chart-2 .head h5,
+.process .first-cateogry .gallery .chart-3 .head h5,
+.process .first-cateogry .gallery .chart-4 .head h5,
+.process .first-cateogry .gallery .chart-5 .head h5,
+.process-media .first-cateogry .gallery .chart-1 .head h5,
+.process-media .first-cateogry .gallery .chart-2 .head h5,
+.process-media .first-cateogry .gallery .chart-3 .head h5,
+.process-media .first-cateogry .gallery .chart-4 .head h5,
+.process-media .first-cateogry .gallery .chart-5 .head h5 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.process .first-cateogry .gallery .chart-1 .head h1,
+.process .first-cateogry .gallery .chart-2 .head h1,
+.process .first-cateogry .gallery .chart-3 .head h1,
+.process .first-cateogry .gallery .chart-4 .head h1,
+.process .first-cateogry .gallery .chart-5 .head h1,
+.process-media .first-cateogry .gallery .chart-1 .head h1,
+.process-media .first-cateogry .gallery .chart-2 .head h1,
+.process-media .first-cateogry .gallery .chart-3 .head h1,
+.process-media .first-cateogry .gallery .chart-4 .head h1,
+.process-media .first-cateogry .gallery .chart-5 .head h1 {
+  font-size: 2rem;
+}
+.process .first-cateogry .gallery .chart-1 img,
+.process .first-cateogry .gallery .chart-2 img,
+.process .first-cateogry .gallery .chart-3 img,
+.process .first-cateogry .gallery .chart-4 img,
+.process .first-cateogry .gallery .chart-5 img,
+.process-media .first-cateogry .gallery .chart-1 img,
+.process-media .first-cateogry .gallery .chart-2 img,
+.process-media .first-cateogry .gallery .chart-3 img,
+.process-media .first-cateogry .gallery .chart-4 img,
+.process-media .first-cateogry .gallery .chart-5 img {
+  width: 50%;
+}
+.process .first-cateogry .gallery .chart-1 .one,
+.process .first-cateogry .gallery .chart-2 .one,
+.process .first-cateogry .gallery .chart-3 .one,
+.process .first-cateogry .gallery .chart-4 .one,
+.process .first-cateogry .gallery .chart-5 .one,
+.process-media .first-cateogry .gallery .chart-1 .one,
+.process-media .first-cateogry .gallery .chart-2 .one,
+.process-media .first-cateogry .gallery .chart-3 .one,
+.process-media .first-cateogry .gallery .chart-4 .one,
+.process-media .first-cateogry .gallery .chart-5 .one {
+  transform: translateY(30%);
+}
+.process .first-cateogry .gallery .chart-1 .two,
+.process .first-cateogry .gallery .chart-2 .two,
+.process .first-cateogry .gallery .chart-3 .two,
+.process .first-cateogry .gallery .chart-4 .two,
+.process .first-cateogry .gallery .chart-5 .two,
+.process-media .first-cateogry .gallery .chart-1 .two,
+.process-media .first-cateogry .gallery .chart-2 .two,
+.process-media .first-cateogry .gallery .chart-3 .two,
+.process-media .first-cateogry .gallery .chart-4 .two,
+.process-media .first-cateogry .gallery .chart-5 .two {
+  transform: translateY(20%);
+}
+.process .first-cateogry .gallery .chart-1 .three,
+.process .first-cateogry .gallery .chart-2 .three,
+.process .first-cateogry .gallery .chart-3 .three,
+.process .first-cateogry .gallery .chart-4 .three,
+.process .first-cateogry .gallery .chart-5 .three,
+.process-media .first-cateogry .gallery .chart-1 .three,
+.process-media .first-cateogry .gallery .chart-2 .three,
+.process-media .first-cateogry .gallery .chart-3 .three,
+.process-media .first-cateogry .gallery .chart-4 .three,
+.process-media .first-cateogry .gallery .chart-5 .three {
+  transform: translateY(50%);
+}
+.process .first-cateogry .gallery .chart-1 .five,
+.process .first-cateogry .gallery .chart-2 .five,
+.process .first-cateogry .gallery .chart-3 .five,
+.process .first-cateogry .gallery .chart-4 .five,
+.process .first-cateogry .gallery .chart-5 .five,
+.process-media .first-cateogry .gallery .chart-1 .five,
+.process-media .first-cateogry .gallery .chart-2 .five,
+.process-media .first-cateogry .gallery .chart-3 .five,
+.process-media .first-cateogry .gallery .chart-4 .five,
+.process-media .first-cateogry .gallery .chart-5 .five {
+  transform: translateY(45%);
+}
+@media screen and (max-width: 768px) {
+  .process .second-cateogry,
+.process-media .second-cateogry {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .process .third-cateogry,
+.process-media .third-cateogry {
+    height: 180vh;
+    overflow-x: hidden;
+  }
+}
+.process .third-cateogry .gallery,
+.process-media .third-cateogry .gallery {
+  --size: 150px;
+  --gap: 10px;
+  --factor: 1.5;
+  display: grid;
+  gap: var(--gap);
+  width: calc(3 * var(--size) + 2 * var(--gap));
+  aspect-ratio: 1;
+  grid-template-columns: repeat(3, auto);
+}
+.process .third-cateogry .gallery > img,
+.process-media .third-cateogry .gallery > img {
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: 0.35s linear;
+}
+.process .third-cateogry .gallery > img:hover,
+.process-media .third-cateogry .gallery > img:hover {
+  filter: grayscale(0);
+  width: calc(var(--size) * var(--factor));
+  height: calc(var(--size) * var(--factor));
+}/*# sourceMappingURL=process.css.map */

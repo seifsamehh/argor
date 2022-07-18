@@ -1,0 +1,85 @@
+.activities-media {
+    @media (min-width: 1025px) {
+        display: none;
+    }
+}
+.activities {
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+.activities-media {
+    @media screen and (max-width: 1024px) {
+        overflow-y: scroll;
+    }
+}
+.activities,
+.activities-media {
+    .cards {
+        display: flex;
+        border-top: 3px solid var(--btn-color);
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-1,
+        .card-2,
+        .card-3 {
+            border-right: 3px dashed var(--btn-color);
+            @media screen and (max-width: 768px) {
+                border-right: none;
+                border-bottom: 3px dashed var(--btn-color);
+            }
+        }
+        .card-1,
+        .card-2,
+        .card-3,
+        .card-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 40vw;
+            h1 {
+                text-align: center;
+                color: var(--main-color);
+                font-size: 3rem;
+                font-weight: 200;
+            }
+            .card-container {
+                perspective: 800px;
+                .card {
+                    width: 300px;
+                    height: 400px;
+                    transform-style: preserve-3d;
+                    position: relative;
+                    transition: transform 0.75s cubic-bezier(0.4,0.03,0.5,0.9);
+                    .card-image {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        inset: 0;
+                        object-fit: cover;
+                        outline: 2px solid var(--main-color);
+                        outline-offset: 5px;
+                        backface-visibility: hidden;
+                        cursor: pointer;
+                        &:nth-child(2) {
+                            transform: rotate3d(1,1,0,180deg);
+                        }
+                    }
+                    &:hover {
+                        transform: rotate3d(1,1,0,180deg);
+                    }
+                }
+            }
+            span {
+                color: #fff;
+                font-size: 15rem;
+                position: relative;
+                top: -25%;
+            }
+        }
+    }
+}

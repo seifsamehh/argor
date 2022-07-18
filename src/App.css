@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
+/* start global variables */
+:root {
+  --bg-color: #7c6f63;
+  --main-color: #dbccb3;
+  --btn-color: #3d352f;
+}
+/* end global variables */
+/* start global components */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  overflow-y: hidden;
+  background-color: var(--bg-color);
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-y: scroll;
+  }
+}
+main {
+  height: 100vh;
+}
+img,
+video,
+a,
+button {
+  user-select: none;
+}
+::selection {
+  background-color: var(--main-color);
+  color: #fff;
+}
+::placeholder {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.animation {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg)
+}
+.animation li {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  float: left;
+}
+.animation li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: 100% 100%;
+  animation: animate 2.65s linear infinite;
+}
+.animation li:nth-child(1) {
+  transform: rotate(0deg);
+}
+.animation li:nth-child(1)::before {
+  animation-delay: 0s;
+  background-color: #fff;
+}
+.animation li:nth-child(2) {
+  transform: rotate(90deg);
+}
+.animation li:nth-child(2)::before {
+  animation-delay: 0.4s;
+  background-color: #cd9900;
+}
+.animation li:nth-child(3) {
+  transform: rotate(270deg);
+}
+.animation li:nth-child(3)::before {
+  animation-delay: 1.2s;
+  background-color: #cd9900;
+}
+.animation li:nth-child(4) {
+  transform: rotate(180deg);
+}
+.animation li:nth-child(4)::before {
+  animation-delay: 0.8s;
+  background-color: #fff;
+}
+@keyframes animate {
+  0% {
+    transform: perspective(200px) rotateX(0deg);
+  }
+  10% {
+    transform: perspective(200px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25% {
+    transform: perspective(200px) rotateX(0deg);
+    opacity: 1;
+  }
+  75% {
+    transform: perspective(200px) rotateX(0deg);
+    opacity: 1;
+  }
+  90% {
+    transform: perspective(200px) rotateY(180deg);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(200px) rotateY(0deg);
+    opacity: 0;
+  }
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+}
+.qlONe {
+  height: 100vh !important;
+}
+/* end global components */
